@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\saeed\source\repos\Students Management System\core\clsUser.h(237,2): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecord' now defined to be 'public', previously it was defined to be 'private'
+C:\Users\saeed\source\repos\Students Management System\core\clsUser.h(18): message : see declaration of 'clsUser::stLoginRegisterRecord'
+C:\Users\saeed\source\repos\Students Management System\screens\clsLoginScreen.h(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Students Management System.vcxproj -> C:\Users\saeed\source\repos\Students Management System\x64\Debug\Students Management System.exe
