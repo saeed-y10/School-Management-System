@@ -1,5 +1,5 @@
 #include <iostream>
-#include "screens/clsLoginScreen.h"
+#include "clsLoginScreen.h"
 
 using namespace std;
 

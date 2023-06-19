@@ -16,11 +16,11 @@
     <Filter Include="Header Files\Core">
       <UniqueIdentifier>{81178fd7-ba22-44b9-9302-baea53175fbd}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Lib">
-      <UniqueIdentifier>{9ec9c2db-8ca3-403d-85eb-fe70ae54bebd}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Screens">
       <UniqueIdentifier>{17e1d8c3-ce43-4d53-9f76-31f3a8bfa96a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Librarys">
+      <UniqueIdentifier>{9ec9c2db-8ca3-403d-85eb-fe70ae54bebd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -32,85 +32,85 @@
     <ClInclude Include="Global.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="librarys\clsDate.h">
-      <Filter>Header Files\Lib</Filter>
-    </ClInclude>
-    <ClInclude Include="librarys\clsInputValidate.h">
-      <Filter>Header Files\Lib</Filter>
-    </ClInclude>
-    <ClInclude Include="librarys\clsString.h">
-      <Filter>Header Files\Lib</Filter>
-    </ClInclude>
-    <ClInclude Include="librarys\clsUtil.h">
-      <Filter>Header Files\Lib</Filter>
-    </ClInclude>
-    <ClInclude Include="core\clsPerson.h">
+    <ClInclude Include="clsPerson.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
-    <ClInclude Include="core\clsStudent.h">
+    <ClInclude Include="clsStudent.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
-    <ClInclude Include="core\clsSubject.h">
+    <ClInclude Include="clsSubject.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
-    <ClInclude Include="core\clsUser.h">
+    <ClInclude Include="clsUser.h">
       <Filter>Header Files\Core</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsAddNewStudentScreen.h">
+    <ClInclude Include="clsDate.h">
+      <Filter>Header Files\Librarys</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInputValidate.h">
+      <Filter>Header Files\Librarys</Filter>
+    </ClInclude>
+    <ClInclude Include="clsString.h">
+      <Filter>Header Files\Librarys</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUtil.h">
+      <Filter>Header Files\Librarys</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewStudentScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsAddNewUserScreen.h">
+    <ClInclude Include="clsAddNewUserScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsChangeStudentMarks.h">
+    <ClInclude Include="clsChangeStudentMarks.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsDeleteStudentScreen.h">
+    <ClInclude Include="clsDeleteStudentScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsDeleteUserScreen.h">
+    <ClInclude Include="clsDeleteUserScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsFindStudentScreen.h">
+    <ClInclude Include="clsFindStudentScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsFindUserScreen.h">
+    <ClInclude Include="clsFindUserScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsListStudentsMarksScreen.h">
+    <ClInclude Include="clsListStudentsMarksScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsListStudentsScreen.h">
+    <ClInclude Include="clsListStudentsScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsListUsersScreen.h">
+    <ClInclude Include="clsListUsersScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsLoginRegisterScreen.h">
+    <ClInclude Include="clsLoginRegisterScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsLoginScreen.h">
+    <ClInclude Include="clsLoginScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsMainScreen.h">
+    <ClInclude Include="clsMainScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsManageStudentsScreen.h">
+    <ClInclude Include="clsManageStudentsScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsManageUsersScreen.h">
+    <ClInclude Include="clsManageUsersScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsScreen.h">
+    <ClInclude Include="clsScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsStudentMarksScreen.h">
+    <ClInclude Include="clsStudentMarksScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsUpdateStudentScreen.h">
+    <ClInclude Include="clsUpdateStudentScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
-    <ClInclude Include="screens\clsUpdateUserScreen.h">
+    <ClInclude Include="clsUpdateUserScreen.h">
       <Filter>Header Files\Screens</Filter>
     </ClInclude>
   </ItemGroup>
